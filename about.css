@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+/* ********HEADER********* */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #35424a;
+  height: 125px;
+  padding: 0px 25px;
+  width: 100%;
+  border-bottom: 3px solid #a9508b;
+}
+#active:visited{
+  color: #a9508b;
+}
+.header .header__div--left {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header div span {
+  color: #a9508b;
+}
+.header div h1 {
+  color: white;
+}
+.header .header__nav--rigth a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
+.header .header__nav--rigth {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 25px;
+  
+
+}
+.header__nav--rigth a:hover{
+    outline: 5px inset gray;
+    outline-offset: 7px;
+    outline-width: 7px;
+    transform: rotate(5deg); 
+
+}
+/* ***************MAİN*********** */
+main {
+    height: 984px;
+    display: flex;
+    justify-content: space-between;  
+}
+main .main__left {
+     display: flex;
+    flex-direction: column;
+    margin: 25px;    
+}
+.main__left h4{
+  padding:10px ;
+  font-weight: 900;
+
+
+}
+.main__left p {
+  padding: 10px;
+
+} 
+.main__left--p2{
+  background-color: #35424a;
+  color: aliceblue;
+
+}
+main .main__rigth {
+    display: flex;
+    flex-direction: column;
+    margin:25px;
+}
+.main__rigth h4{
+  color: aliceblue;
+  background-color: #35424a;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 900;
+
+}  .main__rigth p{
+  padding: 10px;
+  background-color: #35424a;
+  color: aliceblue;
+  font-size: 1.2rem;
+
+}
+
+/* **********ASİDE********* */
+.aside {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #35424a;
+  height: 100px;
+}
+.aside p,
+.aside .aside__div-input-button {
+  margin: 0 5rem;
+}
+.aside p{
+    color:white;
+    font-size: 1.5rem;
+}
+.aside__div-input-button input {
+  margin-right: 0.1rem;
+  padding: 0.7rem;
+  border: 1px solid #e8491d;
+}
+.aside__div-input-button > button {
+  background-color: #e8491d;
+  color: aliceblue;
+  border: none;
+  padding: 0.8rem;
+}
+
+
+/* *********SECTİON******** */
+
+/* section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section p,
+section h3 {
+  width: 150px;
+  height: 100%;
+}
+.section__div--letf,
+.section__div--middel,
+.section__div--rigth {
+  padding: 25px 0px;
+} */
+
+/* *********FOOTER********** */
+footer {
+  padding: 15px;
+  background-color: #35424a;
+  text-align: center;
+  color: aliceblue;
+}
+.active {
+  color: #a9508b;
+}
+
